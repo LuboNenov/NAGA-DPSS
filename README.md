@@ -1,4 +1,4 @@
-# NAGA - COnfidential Byzantine ReplicAtion SMR library
+# NAGA - Confidential Byzantine-Fault Tolerant Replication SMR library
 
 NAGA is a fully-featured state machine replication library that guarantees the confidentiality of the data. 
 Confidentiality is ensured by integrating a secret sharing mechanism into the 
