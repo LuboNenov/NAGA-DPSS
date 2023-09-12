@@ -14,7 +14,7 @@ the number of shares to reshare;
 * Recovery and resharing while changing the leader was not tested.
 
 ## Requirements
-The COBRA library is primarily implemented in Java and currently uses Gradle to compile, package, and 
+The library is primarily implemented in Java and currently uses Gradle to compile, package, and 
 deploy compiled code for local testing. Nevertheless, we use C to implement the constant commitment scheme 
 functions and call those functions in Java through Java Native Interface.
 
