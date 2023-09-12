@@ -1,6 +1,6 @@
 # NAGA - COnfidential Byzantine ReplicAtion SMR library
 
-Naga is a fully-featured state machine replication library that guarantees the confidentiality of the data. 
+NAGA is a fully-featured state machine replication library that guarantees the confidentiality of the data. 
 Confidentiality is ensured by integrating a secret sharing mechanism into the 
 modified [BFT-SMaRt](https://github.com/bft-smart/library) library, a fully-featured replication library without 
 confidentiality guarantees. You can find the modified version of the BFT-SMaRt library [here](https://github.com/rvassantlal/library).
@@ -18,7 +18,7 @@ The library is primarily implemented in Java and currently uses Gradle to compil
 deploy compiled code for local testing. Nevertheless, we use C to implement the constant commitment scheme 
 functions and call those functions in Java through Java Native Interface.
 
-The current COBRA library was tested using Java 11.0.13.
+The current library was tested using Java 11.0.13.
 
 ## Compilation and Packaging
 First, clone this repository. Now inside the folder, follow 
